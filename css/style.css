@@ -58,7 +58,7 @@ a {
 }
 
 .hero-bg {
-  background-image: url("assets/hero-bg.png");
+  background-image: url("../assets/hero-bg.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -74,7 +74,7 @@ a {
 }
 
 .bg-beach {
-  background-image: url("assets/beach.png");
+  background-image: url("../assets/beach.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
