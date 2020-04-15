@@ -1,5 +1,12 @@
 /* Colors */
 
+@font-face {
+  font-family: 'Lydia Condensed';
+  src: url('../assets/lydiacondensed-bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -41,7 +48,7 @@ a {
 }
 
 .serif {
-  font-family: Lydia Condensed;
+  font-family: "Lydia Condensed", Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 88px;
