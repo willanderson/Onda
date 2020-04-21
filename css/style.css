@@ -501,6 +501,7 @@ button {
 
 .modal {
   opacity: 0;
+  display: none;
   position: fixed;
   width: 100vw;
   height: 100vh;
