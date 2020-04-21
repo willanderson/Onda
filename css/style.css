@@ -498,3 +498,37 @@ button {
   display: inline-block;
   position: absolute;
 }
+
+.modal {
+  opacity: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  transition: all .5s ease;
+}
+
+.modal-open {
+  overflow-y: hidden;
+  height: 100vh;
+  padding-right: 15px;
+}
+
+.modal-open nav button {
+  display: none;
+}
+
+.modal-open .content {
+  filter:blur(100px);
+  transition: all 1s;
+}
+
+.content {
+  filter:blur(0px);
+}
+
+.modal-open .modal {
+  display: flex;
+  opacity: 1;
+  transition: all .5s ease;
+}

@@ -10,9 +10,21 @@
     <link rel="stylesheet" type="text/css" href="css/hover-min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
-  <body>
+  <body class="modal-open">
+    <div class="modal flex items-center justify-center flex-column">
+      <h3 class="serif f-subheadline red mb3 lime">Are you 21 or older?</h3>
+      <div class="block mt3">
+        <button id="21No" class="lime-button mr3 hvr-sweep-to-right ph4">No</button>
+        <button id="21Yes" class="lime-button hvr-sweep-to-right ph4">Yes</button>
+      </div>
+    </div>
 
-    {{ content }}
+        {{ content }}
+
+
+
+
+
 
   </body>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
