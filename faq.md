@@ -1,0 +1,4 @@
+---
+id: faq
+layout: faq
+---
