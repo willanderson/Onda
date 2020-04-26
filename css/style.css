@@ -565,9 +565,6 @@ nav {
   display: none;
 }
 
-.content {
-  filter: blur(0px);
-}
 
 .modal-open .modal {
   display: flex;
@@ -584,7 +581,7 @@ video {
   z-index: -1;
 }
 
-.modal-open .content {
+.modal-open . {
   display: none;
 }
 
@@ -635,6 +632,27 @@ video {
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
+  -webkit-transform: rotate(45deg) translate(-8px, -7px);
+  transform: rotate(45deg) translate(-8px, -7px);
+}
+
+.menuItems {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .5s ease;
+}
+
+.menu .menuItems {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu .content {
+  display: none;
+  transition: opacity .5s ease;
+}
+
+.subhero {
+  object-fit: cover !important;
+  object-position: center center !important;
 }

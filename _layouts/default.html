@@ -15,8 +15,10 @@
   {% include age-gate.html %}
   <body id="{{page.id}}">
     {% include nav.html %}
+      <div class="content">
+            {{ content }}
+      </div>
 
-        {{ content }}
 
         {% unless page.footer == false %}
 
@@ -40,7 +42,7 @@
                       <div class="cf ba bw1 b--lime">
                         <input class="f6 f5-l input-reset bn fl lime bg-red ph3  lh-solid w-70" placeholder="Your Email" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="#" tabindex="-1" value=""></div>
-                        <input type="submit" value="Signup" name="subscribe" id="mc-embedded-subscribe" class="height-50 mt2 mt0-ns f7 button-reset fl pv3 ph3 tc bn bg-animate bg-lime red pointer w-100 w-30-ns druk">
+                        <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="height-50 mt2 mt0-ns f7 button-reset fl pv3 ph3 tc bn bg-animate bg-lime red pointer w-100 w-30-ns druk">
                       </div>
                     </fieldset>
                     <div id="mce-responses" class="clear">

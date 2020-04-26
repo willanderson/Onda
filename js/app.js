@@ -129,7 +129,8 @@ $(document).ready(function() {
   }
 
   $('#hammenu').on('click', function() {
-    this.classList.toggle("change");
+    $('#hammenu').toggleClass("change");
+    $('body').toggleClass("menu");
   });
 
 
