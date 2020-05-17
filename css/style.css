@@ -163,6 +163,10 @@ h3 {
   text-transform: uppercase;
 }
 
+.f1 {
+  font-size: 44px;
+}
+
 .email-form input {
   height: 50px;
 }
@@ -397,85 +401,45 @@ button {
 }
 
 /* Stickers */
-@media screen and (min-width: 680px) {
+/* @media screen and (min-width: 680px) { */
   #endlesssummer {
-    left: 80px;
-    top: 120px;
+    left: 5%;
+    top: 15%;
     width: 30%;
     z-index: 0;
   }
 
   #RoundSticker {
-    left: 7px;
-    top: 227px;
-    width: 21%;
-    z-index: 0;
-  }
-
-  #PalmTree1 {
-    left: 137px;
-    top: 317px;
-    width: 21%;
-    z-index: 0;
-    transform: rotate(-28deg);
-  }
-
-  #PalmTree2 {
-    right: 77px;
-    top: 77px;
-    width: 21%;
-    z-index: 0;
-    transform: rotate(32deg);
-  }
-
-  #Ying {
-    right: 128px;
-    top: 467px;
-    width: 11%;
-    z-index: 0;
-    transform: rotate(16deg);
-  }
-}
-
-@media screen and (max-width: 680px) {
-  #endlesssummer {
-    left: 30px;
-    top: -30px;
-    width: 40%%;
-    z-index: 0;
-  }
-
-  #RoundSticker {
-    left: 17px;
-    top: 97px;
-    width: 21%;
-    z-index: 0;
-  }
-
-  #PalmTree1 {
-    left: 46px;
-    top: 187px;
+    left: 0%;
+    top: 33%;
     width: 18%;
     z-index: 0;
-    transform: rotate(228deg);
+  }
+
+  #PalmTree1 {
+    left: 13%;
+    bottom: 14%;
+    width: 17%;
+    z-index: 0;
+    transform: rotate(-24deg);
   }
 
   #PalmTree2 {
-    right: 32px;
-    top: -23px;
+    right: 13%;
+    top: 0%;
     width: 21%;
     z-index: 0;
-    transform: rotate(32deg);
+    transform: rotate(9deg);
   }
 
   #Ying {
-    right: 18px;
-    top: 156px;
-    width: 26%;
+    right: 18%;
+    bottom: 14%;
+    width: 12%;
     z-index: 0;
     transform: rotate(16deg);
   }
-}
+
 
 .cans {
   z-index: 999;
@@ -487,11 +451,13 @@ button {
 }
 
 .mw40 {
-  max-width: 40rem;
+  max-width: 24rem;
 }
 
-.logo-col svg {
-  align-self: flex-start;
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 /* Nav Stuff */
@@ -509,6 +475,8 @@ nav {
 .green-nav svg {
   fill: #86FF9E;
 }
+
+
 
 .green-nav button {
   border: 2px solid #86FF9E;
@@ -587,6 +555,10 @@ video {
 
 .mt-400 {
   margin-top: 400px;
+}
+
+.mt-256 {
+  margin-top: 256px;
 }
 
 .ac>.ac-q {
